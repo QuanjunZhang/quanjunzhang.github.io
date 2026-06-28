@@ -168,3 +168,20 @@ h1:before, .anchor:before {
     display: inline-block;
     line-height: 1;
 }
+
+.research-wordcloud-wrap {
+    margin: 1.25rem 0 1.75rem;
+    width: 100%;
+}
+
+.research-wordcloud {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+    background: #ffffff;
+    object-fit: contain;
+}

@@ -25,6 +25,10 @@ I have published over 50 papers <a href='https://scholar.google.com/citations?us
 - Large Language Models for Software Engineering: Assertion Generation (TSE'25, TOSEM'25), Unit Test Generation (ISSTA'25, FSE'25-Tool), and Repository-Level Software Repair (TOSEM'26)
 - Software Engineering for Artificial Intelligence: Deep Learning System Testing and Repair, Model Security (TOSEM'25, ISSTA'26), and AI Software Quality Assurance
 
+<div class="research-wordcloud-wrap">
+  <img src="/images/research-wordcloud.png" alt="Research word cloud generated from publication titles" class="research-wordcloud">
+</div>
+
 <span class='anchor' id='selected-publications'></span>
 
 # Selected Publications
