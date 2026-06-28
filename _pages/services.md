@@ -8,8 +8,8 @@ author_profile: true
 
 ## Journal Reviewer
 
-- IEEE Transactions on Software Engineering (TSE, CCF-A)
-- ACM Transactions on Software Engineering and Methodology (TOSEM, CCF-A)
+- IEEE Transactions on Software Engineering (TSE, <span class="ccf-a">CCF-A</span>)
+- ACM Transactions on Software Engineering and Methodology (TOSEM, <span class="ccf-a">CCF-A</span>)
 - Information and Software Technology (IST, CCF-B)
 - Expert Systems with Applications (ESWA, SCI-Q1)
 - Automated Software Engineering (AUSE, CCF-B)

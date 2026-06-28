@@ -177,7 +177,7 @@ h1:before, .anchor:before {
 .research-wordcloud {
     display: block;
     width: 100%;
-    max-width: 900px;
+    max-width: 720px;
     height: auto;
     border: 1px solid #e5e7eb;
     border-radius: 6px;
@@ -189,4 +189,10 @@ h1:before, .anchor:before {
 .page__content li p code + strong + br + strong {
     color: #7b1fa2;
     font-weight: 700;
+}
+
+.ccf-a {
+    color: #c62828;
+    font-weight: 700;
+    white-space: nowrap;
 }
