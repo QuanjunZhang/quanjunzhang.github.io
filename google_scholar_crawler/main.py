@@ -7,10 +7,13 @@ import traceback
 os.makedirs('results', exist_ok=True)
 
 try:
-    # Setup proxy
-    pg = ProxyGenerator()
-    pg.FreeProxies()  # Use free rotating proxies
-    scholarly.use_proxy(pg)
+    try:
+        pg = ProxyGenerator()
+        pg.FreeProxies()
+        scholarly.use_proxy(pg)
+    except Exception:
+        print("Proxy setup failed; trying Google Scholar without a proxy.")
+        print(traceback.format_exc())
 
     author: dict = scholarly.search_author_id(os.environ['GOOGLE_SCHOLAR_ID'])
     scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
