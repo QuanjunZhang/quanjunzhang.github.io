@@ -7,7 +7,7 @@ main:
     url: "/publications/"
 
   - title: "Experience"
-    url: "/#experience"
+    url: "/experience/"
 
   - title: "Services"
     url: "/Services/"
