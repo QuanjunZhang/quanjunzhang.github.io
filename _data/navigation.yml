@@ -1,0 +1,16 @@
+# main links links
+main:
+  - title: "About Me"
+    url: "/#about-me"
+
+  - title: "Research Interests"
+    url: "/#research-interests"
+
+  - title: "Selected Publications"
+    url: "/#selected-publications"
+
+  - title: "Experience"
+    url: "/#experience"
+
+  - title: "Services"
+    url: "/#services"
