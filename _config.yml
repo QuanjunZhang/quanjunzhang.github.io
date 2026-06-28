@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Quanjun Zhang"
-  avatar           : "images/quanjun-zhang.jpg"
+  avatar           : "/images/quanjun-zhang.jpg"
   bio              : "Software Engineer, Researcher, and Teacher"
   location         : "Nanjing, China"
   employer         :
