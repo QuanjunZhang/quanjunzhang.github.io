@@ -9,9 +9,9 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a software engineer, researcher, and teacher at Nanjing University of Science and Technology. My research focuses on Artificial Intelligence for Software Engineering and Software Engineering for Artificial Intelligence, with particular interests in coding agents, automated program repair, software testing, code representation, deep learning system testing and repair, and model security.
+I am currently a Professor at the School of Computer Science and Engineering, Nanjing University of Science and Technology. My research focuses on Artificial Intelligence for Software Engineering and Software Engineering for Artificial Intelligence, with particular interests in coding agents, automated program repair, software testing, code representation, deep learning system testing and repair, and model security.
 
-Before joining Nanjing University of Science and Technology, I was a Postdoctoral Research Fellow at Swinburne University of Technology under the supervision of Professor [Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang). I received my Ph.D. from Nanjing University, under the supervision of Professor [Zhenyu Chen](https://scholar.google.com/citations?user=HQWxCnkAAAAJ) & Associate Professor [Chunrong Fang](https://scholar.google.com/citations?user=S3Rd5TgAAAAJ).
+Before joining Nanjing University of Science and Technology, I was a Postdoctoral Research Fellow at Swinburne University of Technology under the supervision of Professor [Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang). I received my Ph.D. from Nanjing University, under the supervision of Professor [Zhenyu Chen](https://scholar.google.com/citations?user=HQWxCnkAAAAJ) and Associate Professor [Chunrong Fang](https://scholar.google.com/citations?user=S3Rd5TgAAAAJ).
 
 I am open to collaboration and communication. Please feel free to contact me at [quanjunzhang@njust.edu.cn](mailto:quanjunzhang@njust.edu.cn).
 
@@ -19,7 +19,7 @@ I am open to collaboration and communication. Please feel free to contact me at 
 
 # 📚 Research Interest
 
-I have published over 20 papers <a href='https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FQuanjunZhang%2Fquanjunzhang.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international software engineering conferences (e.g., ICSE, FSE, ASE, ISSTA) and journals (e.g., TOSEM, TSE, TDSC, SCIS, EMSE). Currently, I focus on the following research topics:
+I have published over 50 papers <a href='https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FQuanjunZhang%2Fquanjunzhang.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international software engineering conferences (e.g., ICSE, FSE, ASE, ISSTA) and journals (e.g., TOSEM, TSE, TDSC, SCIS, EMSE). Currently, I focus on the following research topics:
 
 - Artificial Intelligence for Software Engineering: Coding Agents (TOSEM'26), Automated Program Repair (ASE'23, TOSEM'23, TDSC'23), Software Testing (ISSTA'25, TOSEM'24, TSE'25), and Code Representation
 - Large Language Models for Software Engineering: Assertion Generation (TSE'25, TOSEM'25), Unit Test Generation (ISSTA'25, FSE'25-Tool), and Repository-Level Software Repair (TOSEM'26)
@@ -28,8 +28,6 @@ I have published over 20 papers <a href='https://scholar.google.com/citations?us
 <span class='anchor' id='selected-publications'></span>
 
 # Selected Publications
-
-[[Full](/publications/)] [[Google Scholar](https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN)] [[DBLP](https://dblp.org/pid/231/4867.html)] [[GitHub](https://github.com/QuanjunZhang)]
 
 Note: equal contribution is noted where applicable.
 
