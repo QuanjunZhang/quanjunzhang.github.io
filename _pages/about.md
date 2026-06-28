@@ -100,12 +100,3 @@ Note: equal contribution is noted where applicable.
 - `ISSTA'22` **CIRCLE: Continual Repair across Programming Languages**.  
   Wei Yuan, **Quanjun Zhang** (equal contribution), Tieke He, Chunrong Fang, Nguyen Quoc Viet Hung, Hongzhi Yin.  
   In *Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis*, July 18-22, 2022. (CCF-A)
-
-<span class='anchor' id='experience'></span>
-
-# Experience
-
-- *04/2025 - now*, Professor, Nanjing University of Science and Technology.
-- *01/2025 - 04/2025*, Postdoctoral Research Fellow, Swinburne University of Technology, under the supervision of Professor [Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang).
-- *10/2023 - 10/2024*, Visiting Ph.D. student, Swinburne University of Technology, under the supervision of Professor [Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang).
-- *09/2020 - 12/2024*, Ph.D., Nanjing University, under the supervision of Professor [Zhenyu Chen](https://scholar.google.com/citations?user=HQWxCnkAAAAJ) & Associate Professor [Chunrong Fang](https://scholar.google.com/citations?user=S3Rd5TgAAAAJ).
