@@ -30,4 +30,4 @@ jobs:
         git commit -m "Updated Citation Data"
         git push "${remote_repo}" HEAD:google-scholar-stats --force
       env: 
-        GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+        GOOGLE_SCHOLAR_ID: zRzZ8HwAAAAJ
