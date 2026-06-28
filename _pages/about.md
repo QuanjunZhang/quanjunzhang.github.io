@@ -11,7 +11,7 @@ redirect_from:
 
 I am currently a Professor at the School of Computer Science and Engineering, Nanjing University of Science and Technology. My research focuses on Artificial Intelligence for Software Engineering and Software Engineering for Artificial Intelligence, with particular interests in coding agents, automated program repair, software testing, code representation, deep learning system testing and repair, and model security.
 
-Before joining Nanjing University of Science and Technology, I was a Postdoctoral Research Fellow at Swinburne University of Technology under the supervision of Prof. Yun Yang. I received my Ph.D. from Nanjing University, where I was advised by Prof. Zhenyu Chen and Associate Prof. Chunrong Fang.
+Before joining Nanjing University of Science and Technology, I was a Postdoctoral Research Fellow at Swinburne University of Technology under the supervision of Professor [Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang). I received my Ph.D. from Nanjing University, under the supervision of Professor [Zhenyu Chen](https://scholar.google.com/citations?user=HQWxCnkAAAAJ) & Associate Professor [Chunrong Fang](https://scholar.google.com/citations?user=S3Rd5TgAAAAJ).
 
 I am open to collaboration and communication. Please feel free to contact me at [quanjunzhang@njust.edu.cn](mailto:quanjunzhang@njust.edu.cn).
 
@@ -106,6 +106,6 @@ Note: equal contribution is noted where applicable.
 # Experience
 
 - *04/2025 - now*, Professor, Nanjing University of Science and Technology.
-- *01/2025 - 04/2025*, Postdoctoral Research Fellow, Swinburne University of Technology, under the supervision of Prof. Yun Yang.
-- *10/2023 - 10/2024*, Visiting Ph.D. student, Swinburne University of Technology, under the supervision of Prof. Yun Yang.
-- *09/2020 - 12/2024*, Ph.D., Nanjing University, advised by Prof. Zhenyu Chen and Associate Prof. Chunrong Fang.
+- *01/2025 - 04/2025*, Postdoctoral Research Fellow, Swinburne University of Technology, under the supervision of Professor [Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang).
+- *10/2023 - 10/2024*, Visiting Ph.D. student, Swinburne University of Technology, under the supervision of Professor [Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang).
+- *09/2020 - 12/2024*, Ph.D., Nanjing University, under the supervision of Professor [Zhenyu Chen](https://scholar.google.com/citations?user=HQWxCnkAAAAJ) & Associate Professor [Chunrong Fang](https://scholar.google.com/citations?user=S3Rd5TgAAAAJ).
