@@ -22,6 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Generate Google Scholar citation data
+        timeout-minutes: 3
         run: |
           if [ -z "${GOOGLE_SCHOLAR_ID}" ]; then
             echo "::error::Missing GOOGLE_SCHOLAR_ID"
@@ -29,11 +30,10 @@ jobs:
           fi
 
           cd ./google_scholar_crawler
-          python -m pip install --upgrade pip
-          python -m pip install -r requirements.txt
           python main.py
         env:
           GOOGLE_SCHOLAR_ID: zRzZ8HwAAAAJ
+          FALLBACK_CITATIONS: "2271"
 
       - name: Publish citation data
         run: |
