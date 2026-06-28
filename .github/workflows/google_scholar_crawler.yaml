@@ -24,7 +24,7 @@ jobs:
       - name: Generate Google Scholar citation data
         run: |
           if [ -z "${GOOGLE_SCHOLAR_ID}" ]; then
-            echo "::error::Missing repository secret GOOGLE_SCHOLAR_ID"
+            echo "::error::Missing GOOGLE_SCHOLAR_ID"
             exit 1
           fi
 
@@ -33,7 +33,7 @@ jobs:
           python -m pip install -r requirements.txt
           python main.py
         env:
-          GOOGLE_SCHOLAR_ID: ${{ secrets.GOOGLE_SCHOLAR_ID }}
+          GOOGLE_SCHOLAR_ID: zRzZ8HwAAAAJ
 
       - name: Publish citation data
         run: |
