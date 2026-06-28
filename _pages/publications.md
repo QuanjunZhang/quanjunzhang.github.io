@@ -1,35 +1,12 @@
 ---
-permalink: /
-title: ""
+permalink: /publications/
+title: "Publications"
 author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
 ---
 
-<span class='anchor' id='about-me'></span>
+# Publications
 
-I am currently a Professor at the School of Computer Science and Engineering, Nanjing University of Science and Technology. My research focuses on Artificial Intelligence for Software Engineering and Software Engineering for Artificial Intelligence, with particular interests in coding agents, automated program repair, software testing, code representation, deep learning system testing and repair, and model security.
-
-Before joining Nanjing University of Science and Technology, I was a Postdoctoral Research Fellow at Swinburne University of Technology under the supervision of Prof. Yun Yang. I received my Ph.D. from Nanjing University, where I was advised by Prof. Zhenyu Chen and Associate Prof. Chunrong Fang.
-
-I am open to collaboration and communication. Please feel free to contact me at [quanjunzhang@njust.edu.cn](mailto:quanjunzhang@njust.edu.cn).
-
-<span class='anchor' id='research-interests'></span>
-
-# 📚 Research Interest
-
-I have published over 20 papers <a href='https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FQuanjunZhang%2Fquanjunzhang.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international software engineering conferences (e.g., ICSE, FSE, ASE, ISSTA) and journals (e.g., TOSEM, TSE, TDSC, SCIS, EMSE). Currently, I focus on the following research topics:
-
-- Artificial Intelligence for Software Engineering: Coding Agents (TOSEM'26), Automated Program Repair (ASE'23, TOSEM'23, TDSC'23), Software Testing (ISSTA'25, TOSEM'24, TSE'25), and Code Representation
-- Large Language Models for Software Engineering: Assertion Generation (TSE'25, TOSEM'25), Unit Test Generation (ISSTA'25, FSE'25-Tool), and Repository-Level Software Repair (TOSEM'26)
-- Software Engineering for Artificial Intelligence: Deep Learning System Testing and Repair, Model Security (TOSEM'25, ISSTA'26), and AI Software Quality Assurance
-
-<span class='anchor' id='selected-publications'></span>
-
-# Selected Publications
-
-[[Full](/publications/)] [[Google Scholar](https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN)] [[DBLP](https://dblp.org/pid/231/4867.html)] [[GitHub](https://github.com/QuanjunZhang)]
+[[Selected Publications](/#selected-publications)] [[Google Scholar](https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN)] [[DBLP](https://dblp.org/pid/231/4867.html)] [[GitHub](https://github.com/QuanjunZhang)]
 
 Note: equal contribution is noted where applicable.
 
@@ -100,44 +77,3 @@ Note: equal contribution is noted where applicable.
 - `ISSTA'22` **CIRCLE: Continual Repair across Programming Languages**.  
   Wei Yuan, **Quanjun Zhang** (equal contribution), Tieke He, Chunrong Fang, Nguyen Quoc Viet Hung, Hongzhi Yin.  
   In *Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis*, July 18-22, 2022. (CCF-A)
-
-<span class='anchor' id='experience'></span>
-
-# Experience
-
-- *04/2025 - now*, Professor, Nanjing University of Science and Technology.
-- *01/2025 - 04/2025*, Postdoctoral Research Fellow, Swinburne University of Technology, under the supervision of Prof. Yun Yang.
-- *10/2023 - 10/2024*, Visiting Ph.D. student, Swinburne University of Technology, under the supervision of Prof. Yun Yang.
-- *09/2020 - 12/2024*, Ph.D., Nanjing University, advised by Prof. Zhenyu Chen and Associate Prof. Chunrong Fang.
-
-<span class='anchor' id='services'></span>
-
-# Services
-
-## Journal Reviewer
-
-- IEEE Transactions on Software Engineering (TSE, CCF-A)
-- ACM Transactions on Software Engineering and Methodology (TOSEM, CCF-A)
-- Information and Software Technology (IST, CCF-B)
-- Expert Systems with Applications (ESWA, SCI-Q1)
-- Automated Software Engineering (AUSE, CCF-B)
-- Empirical Software Engineering (EMSE, CCF-B)
-- Journal of Software: Evolution and Process (JSEP, CCF-B)
-- IEEE Transactions on Learning Technologies (TLT)
-- ACM Transactions on Computing Education (TCE)
-
-## Conference PC Member
-
-- 2027: International Conference on Software Engineering (ICSE)
-- 2025: International Symposium on Software Testing and Analysis (ISSTA), Artifact Evaluation Track
-- 2025: International Conference on Software Engineering (ICSE), Automated Program Repair Track
-- 2024: International Symposium on Software Testing and Analysis (ISSTA), Artifact Evaluation Track
-
-## Other Reviewing
-
-- 2025: ISSTA co-reviewer, ASE co-reviewer, ICSE co-reviewer, FSE co-reviewer, ACL co-reviewer
-- 2024: ISSTA co-reviewer, ASE co-reviewer, ICSE co-reviewer, FSE co-reviewer
-- 2023: TSE co-reviewer, TOSEM co-reviewer, ASE co-reviewer, ISSTA co-reviewer, COMSAC co-reviewer, ISSRE co-reviewer
-- 2022: TR co-reviewer, JMSE co-reviewer, ASE co-reviewer, ICSE co-reviewer, ICST co-reviewer, ISSRE co-reviewer
-- 2021: TR co-reviewer, ASE co-reviewer, ICSE co-reviewer, ICST co-reviewer, ISSRE co-reviewer, COMSAC co-reviewer
-- 2020: ICSE co-reviewer, ASE co-reviewer, FSE co-reviewer, ICST co-reviewer
