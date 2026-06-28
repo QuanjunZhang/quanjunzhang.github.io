@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Quanjun Zhang"
-description              : "Professor at Nanjing University of Science and Technology. Focusing on AI for Software Engineering and Software Engineering for AI."
+description              : "Professor at Nanjing University of Science and Technology."
 repository               : "QuanjunZhang/quanjunzhang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Quanjun Zhang"
   avatar           : "images/quanjun-zhang.jpg"
-  bio              : "School of Computer Science and Engineering, Nanjing University of Science and Technology"
+  bio              : "Software Engineer, Researcher, and Teacher"
   location         : "Nanjing, China"
   employer         :
   pubmed           : 
