@@ -9,6 +9,7 @@ from urllib.request import Request, urlopen
 
 RESULTS_DIR = "results"
 SCHOLAR_ID = os.environ["GOOGLE_SCHOLAR_ID"]
+DEFAULT_FALLBACK_CITATIONS = "2271"
 PROFILE_URL = f"https://scholar.google.com/citations?user={SCHOLAR_ID}&hl=en"
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -68,7 +69,7 @@ try:
     }
 except Exception:
     error = traceback.format_exc()
-    fallback = os.environ.get("FALLBACK_CITATIONS", "unavailable")
+    fallback = os.environ.get("FALLBACK_CITATIONS", DEFAULT_FALLBACK_CITATIONS)
     print(error)
 
     with open(os.path.join(RESULTS_DIR, "gs_error.txt"), "w") as outfile:
