@@ -31,15 +31,11 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
       {% endif %}
-      {% if page.url == "/" or page.permalink == "/" %}
-        <li><a href="https://teacher.njust.edu.cn/jsj/zqj/list.htm"><i class="fas fa-fw fa-link" aria-hidden="true"></i> NJUST Homepage</a></li>
-      {% endif %}
+      <li><a href="https://teacher.njust.edu.cn/jsj/zqj/list.htm"><i class="fas fa-fw fa-link" aria-hidden="true"></i> NJUST Homepage</a></li>
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
-      {% if page.url == "/" or page.permalink == "/" %}
-        <li><a href="https://orcid.org/0000-0002-2495-3805"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
-      {% endif %}
+      <li><a href="https://orcid.org/0000-0002-2495-3805"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
       {% if author.dblp %}
         <li><a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i> DBLP</a></li>
       {% endif %}
@@ -135,15 +131,11 @@
       {% if author.email %}
         <a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i></a>
       {% endif %}
-      {% if page.url == "/" or page.permalink == "/" %}
-        <a href="https://teacher.njust.edu.cn/jsj/zqj/list.htm"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
-      {% endif %}
+      <a href="https://teacher.njust.edu.cn/jsj/zqj/list.htm"><i class="fas fa-fw fa-link" aria-hidden="true"></i></a>
       {% if author.googlescholar %}
         <a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i></a>
       {% endif %}
-      {% if page.url == "/" or page.permalink == "/" %}
-        <a href="https://orcid.org/0000-0002-2495-3805"><i class="ai ai-orcid-square ai-fw"></i></a>
-      {% endif %}
+      <a href="https://orcid.org/0000-0002-2495-3805"><i class="ai ai-orcid-square ai-fw"></i></a>
       {% if author.dblp %}
         <a href="{{ author.dblp }}"><i class="ai ai-dblp ai-fw" aria-hidden="true"></i></a>
       {% endif %}
