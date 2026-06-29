@@ -304,24 +304,36 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
     return code.textContent.trim().split("'")[0].split("-")[0].toUpperCase();
   }
 
-  function countVenue(items, venue) {
-    var count = 0;
-    for (var i = 0; i < items.length; i += 1) {
-      if (venueOf(items[i]) === venue) {
-        count += 1;
-      }
-    }
-    return count;
-  }
+  function ccfAVenueStats(items) {
+    var counts = {};
+    var total = 0;
 
-  function countCcfA(items) {
-    var count = 0;
     for (var i = 0; i < items.length; i += 1) {
-      if (items[i].querySelector(".ccf-a")) {
-        count += 1;
+      if (!items[i].querySelector(".ccf-a")) {
+        continue;
       }
+
+      var venue = venueOf(items[i]);
+      if (!venue) {
+        continue;
+      }
+
+      total += 1;
+      counts[venue] = (counts[venue] || 0) + 1;
     }
-    return count;
+
+    var venues = Object.keys(counts).sort(function (a, b) {
+      if (counts[b] !== counts[a]) {
+        return counts[b] - counts[a];
+      }
+      return a.localeCompare(b);
+    });
+
+    return {
+      total: total,
+      venues: venues,
+      counts: counts
+    };
   }
 
   function stat(label, value) {
@@ -333,13 +345,13 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
   var preprintItems = preprintsHeading ? itemsUntilNextHeading(preprintsHeading) : [];
   var publicationItems = publicationsHeading ? itemsUntilNextHeading(publicationsHeading) : [];
   var summary = document.getElementById("publication-counts");
-  var venueStats = ["TOSEM", "TSE", "ICSE", "FSE", "ISSTA", "ASE", "TDSC"];
-  var parts = [stat("CCF-A", countCcfA(publicationItems))];
+  var ccfAStats = ccfAVenueStats(publicationItems);
+  var parts = [stat("CCF-A", ccfAStats.total)];
 
-  for (var i = 0; i < venueStats.length; i += 1) {
-    parts.push(stat(venueStats[i], countVenue(publicationItems, venueStats[i])));
+  for (var i = 0; i < ccfAStats.venues.length; i += 1) {
+    var venue = ccfAStats.venues[i];
+    parts.push(stat(venue, ccfAStats.counts[venue]));
   }
-
 
   setHeadingCount(preprintsHeading, preprintItems.length);
   setHeadingCount(publicationsHeading, publicationItems.length);
