@@ -189,6 +189,11 @@
     }
   }
 
+  a.is-active {
+    color: #7b1fa2;
+    font-weight: 700;
+  }
+
   button {
     position: absolute;
     height: 100%;
@@ -246,6 +251,13 @@
             -ms-transform: scaleX(1);
                 transform: scaleX(1); /* reveal*/
       }
+
+      &.is-active:before {
+        background: #7b1fa2;
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+      }
     }
   }
 
@@ -269,6 +281,12 @@
         color: $masthead-link-color-hover;
         background: mix(#fff, $primary-color, 75%);
       }
+    }
+
+    a.is-active {
+      color: #7b1fa2;
+      font-weight: 700;
+      background: mix(#fff, #7b1fa2, 88%);
     }
 
     &:before {
