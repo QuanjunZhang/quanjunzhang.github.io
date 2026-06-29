@@ -7,7 +7,7 @@ author_profile: true
 # Publications
 
 
-Note: equal contribution is noted where applicable. An asterisk (*) is preserved where marked in the source list.
+Note: <sup>*</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equal contribution.
 
 <p class="publication-counts" id="publication-counts"></p>
 
@@ -36,7 +36,7 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
   In *Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis*, pages to appear.
 
 3. `ASE'26` **PSearch: Search-based Patch Generation in the Era of LLM-based Automated Program Repair**. (<span class="ccf-a">CCF-A</span>)<br>
-  Haichuan Hu, Ye Shang, Weifeng Sun, and **Quanjun Zhang**\*.<br>
+  Haichuan Hu, Ye Shang, Weifeng Sun, and **Quanjun Zhang**<sup>*</sup>.<br>
   In *Proceedings of the IEEE/ACM International Conference on Automated Software Engineering*, pages to appear.
 
 4. `IJCV'26` **UBA: A Unified Black-Box Adversarial Testing for Object Detection via Visualization-Based Contextual Reconstruction**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -68,7 +68,7 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
   In *International Conference on Software Quality, Reliability and Security*, pages to appear, 2026.
 
 11. `FSE'25-Tool` **A Multi-Agent LLM Framework for Repository-Level Unit Test Generation**. (<span class="ccf-a">CCF-A</span>)<br>
-  Ye Shang, **Quanjun Zhang**\*, Zhenyu Zhan, Ke Huang, Chunrong Fang\*, Zhenyu Chen.<br>
+  Ye Shang, **Quanjun Zhang**<sup>*</sup>, Zhenyu Zhan, Ke Huang, Chunrong Fang<sup>*</sup>, Zhenyu Chen.<br>
   In *ACM International Conference on the Foundations of Software Engineering, Tool Demonstrations Track*, pages to appear.
 
 12. `TOSEM'25` **Pre-trained Model-based Actionable Warning Identification: A Feasibility Study**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -107,8 +107,8 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
   **Quanjun Zhang**, Chunrong Fang, Yi Zheng, Yaxin Zhang, Yuan Zhao, Rubing Huang, Jianyi Zhou, Yun Yang, Tao Zheng, Zhenyu Chen.<br>
   In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2025.
 
-21. `ISSTA'25` **A Large-scale Empirical Study on Fine-tuning Large Language Models for Unit Testing**. (<span class="ccf-a">CCF-A</span>, Equal Contribution)<br>
-  Ye Shang, **Quanjun Zhang** (equal contribution), Chunrong Fang, Siqi Gu, Jianyi Zhou, Zhenyu Chen.<br>
+21. `ISSTA'25` **A Large-scale Empirical Study on Fine-tuning Large Language Models for Unit Testing**. (<span class="ccf-a">CCF-A</span>)<br>
+  Ye Shang, **Quanjun Zhang**<sup>&dagger;</sup>, Chunrong Fang, Siqi Gu, Jianyi Zhou, Zhenyu Chen.<br>
   In *Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis (ISSTA 2025)*, pages to appear. [Acceptance rate: 4.16% (23 / 553)]
 
 22. `JOS'25` **Deep Learning Operator Testing for RISC-V Architecture**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -116,19 +116,19 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
   In *Journal of Software* (in Chinese), pages to appear, 2025.
 
 23. `JOS'25` **Research Progress of Retrieval-Augmented Generation in Software Engineering**. (<span class="ccf-a">CCF-A</span>)<br>
-  **Quanjun Zhang**, Yang Xie, Chunrong Fang\*, Shengcheng Yu, Yuan Zhao, Zhenyu Chen.<br>
+  **Quanjun Zhang**, Yang Xie, Chunrong Fang<sup>*</sup>, Shengcheng Yu, Yuan Zhao, Zhenyu Chen.<br>
   In *Journal of Software* (in Chinese), pages to appear, 2025.
 
 24. `JOS'25` **Semantic Matching-based Cross-Platform Mobile App Test Script Record and Replay via Large Language Models**. (<span class="ccf-a">CCF-A</span>)<br>
-  Shengcheng Yu, Chunrong Fang\*, Ye Zhong, **Quanjun Zhang**, Qin Liu, Jia Liu, Tao Zheng, Zhenyu Chen.<br>
+  Shengcheng Yu, Chunrong Fang<sup>*</sup>, Ye Zhong, **Quanjun Zhang**, Qin Liu, Jia Liu, Tao Zheng, Zhenyu Chen.<br>
   In *Journal of Software* (in Chinese), pages to appear, 2024.
 
 25. `TSE'24` **Enhanced Crowdsourced Test Report Prioritization via Image-and-Text Semantic Understanding and Feature Integration**. (<span class="ccf-a">CCF-A</span>)<br>
   Chunrong Fang, Shengcheng Yu, **Quanjun Zhang**, Xin Li, Yulei Liu, and Zhenyu Chen.<br>
   In *IEEE Transactions on Software Engineering*, pages to appear, 2024.
 
-26. `APR'25` **Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs**. (Corresponding Author)<br>
-  Haichuan Hu, Ye Shang, Guolin Xu, Congqing He, **Quanjun Zhang**\*.<br>
+26. `APR'25` **Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs**.<br>
+  Haichuan Hu, Ye Shang, Guolin Xu, Congqing He, **Quanjun Zhang**<sup>*</sup>.<br>
   In *The 6th International Workshop on Automated Program Repair (APR 2025)*.
 
 27. `FSE'25` **Eliminating Backdoors in Neural Code Models for Secure Code Understanding**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -148,7 +148,7 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
   In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2024.
 
 31. `FSE'24` **Semi-Supervised Crowdsourced Test Report Clustering via Screenshot-Text Binding Rules**. (<span class="ccf-a">CCF-A</span>)<br>
-  Shengcheng Yu, Chunrong Fang\*, **Quanjun Zhang**, Mingzhe Du, Jia Liu, Zhenyu Chen.<br>
+  Shengcheng Yu, Chunrong Fang<sup>*</sup>, **Quanjun Zhang**, Mingzhe Du, Jia Liu, Zhenyu Chen.<br>
   In *Proceedings of the 32nd ACM Symposium on the Foundations of Software Engineering (FSE '24)*, July 15--19, 2024, Porto de Galinhas, Brazil.
 
 32. `TOSEM'24` **DiPri: Distance-based Seed Prioritization for Greybox Fuzzing**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -231,12 +231,12 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
   Weisong Sun, **Quanjun Zhang**, Chunrong Fang, Yuchen Chen, Xingya Wang, Ziyuan Wang.<br>
   In *Information and Software Technology*, pages to appear, 2022.
 
-52. `ISSTA'22` **CIRCLE: Continual Repair across Programming Languages**. (<span class="ccf-a">CCF-A</span>, Equal Contribution)<br>
-  Wei Yuan, **Quanjun Zhang** (equal contribution), Tieke He, Chunrong Fang, Nguyen Quoc Viet Hung, Hongzhi Yin.<br>
+52. `ISSTA'22` **CIRCLE: Continual Repair across Programming Languages**. (<span class="ccf-a">CCF-A</span>)<br>
+  Wei Yuan, **Quanjun Zhang**<sup>&dagger;</sup>, Tieke He, Chunrong Fang, Nguyen Quoc Viet Hung, Hongzhi Yin.<br>
   In *Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis*, July 18--22, 2022, pages to appear, Virtual, South Korea.
 
-53. `Internetware'22` **Investigating Coverage Guided Fuzzing with Mutation Testing**. (EI, Equal Contribution)<br>
-  Ruixiang Qian, **Quanjun Zhang**\*, Chunrong Fang, Lihua Guo.<br>
+53. `Internetware'22` **Investigating Coverage Guided Fuzzing with Mutation Testing**. (EI)<br>
+  Ruixiang Qian, **Quanjun Zhang**<sup>&dagger;</sup>, Chunrong Fang, Lihua Guo.<br>
   In *The 13th Asia-Pacific Symposium on Internetware*, June 11--12, 2022, pages to appear, Hohhot, China.
 
 54. `ICSE'22-Tool` **TauLiM: Test Data Augmentation of LiDAR Point Cloud by Metamorphic Relation**. (<span class="ccf-a">CCF-A</span>)<br>
