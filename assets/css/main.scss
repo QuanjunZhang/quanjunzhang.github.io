@@ -197,20 +197,9 @@ h1:before, .anchor:before {
     white-space: nowrap;
 }
 
-.visitor-globe {
+.visitor-map {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
     width: 100%;
-}
-
-.visitor-globe #mmvst_a,
-.visitor-globe .mmvst_outer {
-    display: block !important;
-    width: 200px !important;
-    max-width: 200px !important;
-}
-
-.visitor-globe .mmvst_outer {
-    margin: 0 auto !important;
 }
