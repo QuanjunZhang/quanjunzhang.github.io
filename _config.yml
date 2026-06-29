@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Quanjun Zhang"
-description              : "Professor at Nanjing University of Science and Technology."
+description              : "Researcher, Software Engineer, and Teacher"
 repository               : "QuanjunZhang/quanjunzhang.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Quanjun Zhang"
   avatar           : "/images/quanjun-zhang.jpg"
-  bio              : "Software Engineer, Researcher, and Teacher"
+  bio              : "Professor at Nanjing University of Science and Technology"
   location         : "Nanjing, China"
   employer         :
   pubmed           : 
