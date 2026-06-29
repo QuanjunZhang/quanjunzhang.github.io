@@ -6,7 +6,6 @@ author_profile: true
 
 # Publications
 
-[[Selected Publications](/#selected-publications)] [[Google Scholar](https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN)] [[DBLP](https://dblp.org/pid/231/4867.html)] [[GitHub](https://github.com/QuanjunZhang)]
 
 Note: equal contribution is noted where applicable. An asterisk (*) is preserved where marked in the source list.
 
@@ -258,22 +257,22 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
 
 <script>
 (function () {
-  function countItemsUntilNextHeading(heading) {
-    var count = 0;
+  function itemsUntilNextHeading(heading) {
+    var items = [];
     var node = heading.nextElementSibling;
 
     while (node && node.tagName !== "H2") {
       if (node.tagName === "UL" || node.tagName === "OL") {
         for (var i = 0; i < node.children.length; i += 1) {
           if (node.children[i].tagName === "LI") {
-            count += 1;
+            items.push(node.children[i]);
           }
         }
       }
       node = node.nextElementSibling;
     }
 
-    return count;
+    return items;
   }
 
   function findHeading(label) {
@@ -297,17 +296,60 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
     heading.appendChild(badge);
   }
 
+  function venueOf(item) {
+    var code = item.querySelector("code");
+    if (!code) {
+      return "";
+    }
+    return code.textContent.trim().split("'")[0].split("-")[0].toUpperCase();
+  }
+
+  function countVenue(items, venue) {
+    var count = 0;
+    for (var i = 0; i < items.length; i += 1) {
+      if (venueOf(items[i]) === venue) {
+        count += 1;
+      }
+    }
+    return count;
+  }
+
+  function countCcfA(items) {
+    var count = 0;
+    for (var i = 0; i < items.length; i += 1) {
+      if (items[i].querySelector(".ccf-a")) {
+        count += 1;
+      }
+    }
+    return count;
+  }
+
+  function stat(label, value) {
+    return label + ": " + value;
+  }
+
+  var content = document.querySelector(".page__content");
   var preprintsHeading = findHeading("Preprints");
   var publicationsHeading = findHeading("Publications");
-  var preprints = preprintsHeading ? countItemsUntilNextHeading(preprintsHeading) : 0;
-  var publications = publicationsHeading ? countItemsUntilNextHeading(publicationsHeading) : 0;
+  var preprintItems = preprintsHeading ? itemsUntilNextHeading(preprintsHeading) : [];
+  var publicationItems = publicationsHeading ? itemsUntilNextHeading(publicationsHeading) : [];
   var summary = document.getElementById("publication-counts");
+  var venueStats = ["TOSEM", "TSE", "ICSE", "FSE", "ISSTA", "ASE", "TDSC"];
+  var parts = [stat("CCF-A", countCcfA(publicationItems))];
 
-  setHeadingCount(preprintsHeading, preprints);
-  setHeadingCount(publicationsHeading, publications);
+  for (var i = 0; i < venueStats.length; i += 1) {
+    parts.push(stat(venueStats[i], countVenue(publicationItems, venueStats[i])));
+  }
+
+  if (content) {
+    content.classList.add("publications-numbered");
+  }
+
+  setHeadingCount(preprintsHeading, preprintItems.length);
+  setHeadingCount(publicationsHeading, publicationItems.length);
 
   if (summary) {
-    summary.textContent = "Total: " + (preprints + publications) + " entries (Preprints: " + preprints + ", Publications: " + publications + ")";
+    summary.textContent = parts.join(" | ");
   }
 }());
 </script>
