@@ -23,7 +23,7 @@ PADDING = 34
 MAX_WORDS = 62
 SEED = 20260628
 
-TITLE_PATTERN = re.compile(r"^-\s+`[^`]+`\s+\*\*(.+?)\*\*", re.MULTILINE)
+TITLE_PATTERN = re.compile(r"^(?:[-*]|\d+\.)\s+`[^`]+`\s+\*\*(.+?)\*\*", re.MULTILINE)
 
 STOPWORDS = {
     "a",
