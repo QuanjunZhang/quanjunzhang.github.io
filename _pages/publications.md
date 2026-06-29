@@ -7,7 +7,7 @@ author_profile: true
 # Publications
 
 
-Note: <sup>*</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equal contribution.
+Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equal contribution.
 
 <p class="publication-counts" id="publication-counts"></p>
 
@@ -36,7 +36,7 @@ Note: <sup>*</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equ
   In *Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis*, pages to appear.
 
 3. `ASE'26` **PSearch: Search-based Patch Generation in the Era of LLM-based Automated Program Repair**. (<span class="ccf-a">CCF-A</span>)<br>
-  Haichuan Hu, Ye Shang, Weifeng Sun, and **Quanjun Zhang**<sup>*</sup>.<br>
+  Haichuan Hu, Ye Shang, Weifeng Sun, and **Quanjun Zhang**<sup>&#42;</sup>.<br>
   In *Proceedings of the IEEE/ACM International Conference on Automated Software Engineering*, pages to appear.
 
 4. `IJCV'26` **UBA: A Unified Black-Box Adversarial Testing for Object Detection via Visualization-Based Contextual Reconstruction**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -68,7 +68,7 @@ Note: <sup>*</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equ
   In *International Conference on Software Quality, Reliability and Security*, pages to appear, 2026.
 
 11. `FSE'25-Tool` **A Multi-Agent LLM Framework for Repository-Level Unit Test Generation**. (<span class="ccf-a">CCF-A</span>)<br>
-  Ye Shang, **Quanjun Zhang**<sup>*</sup>, Zhenyu Zhan, Ke Huang, Chunrong Fang<sup>*</sup>, Zhenyu Chen.<br>
+  Ye Shang, **Quanjun Zhang**<sup>&#42;</sup>, Zhenyu Zhan, Ke Huang, Chunrong Fang<sup>&#42;</sup>, Zhenyu Chen.<br>
   In *ACM International Conference on the Foundations of Software Engineering, Tool Demonstrations Track*, pages to appear.
 
 12. `TOSEM'25` **Pre-trained Model-based Actionable Warning Identification: A Feasibility Study**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -116,11 +116,11 @@ Note: <sup>*</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equ
   In *Journal of Software* (in Chinese), pages to appear, 2025.
 
 23. `JOS'25` **Research Progress of Retrieval-Augmented Generation in Software Engineering**. (<span class="ccf-a">CCF-A</span>)<br>
-  **Quanjun Zhang**, Yang Xie, Chunrong Fang<sup>*</sup>, Shengcheng Yu, Yuan Zhao, Zhenyu Chen.<br>
+  **Quanjun Zhang**, Yang Xie, Chunrong Fang<sup>&#42;</sup>, Shengcheng Yu, Yuan Zhao, Zhenyu Chen.<br>
   In *Journal of Software* (in Chinese), pages to appear, 2025.
 
 24. `JOS'25` **Semantic Matching-based Cross-Platform Mobile App Test Script Record and Replay via Large Language Models**. (<span class="ccf-a">CCF-A</span>)<br>
-  Shengcheng Yu, Chunrong Fang<sup>*</sup>, Ye Zhong, **Quanjun Zhang**, Qin Liu, Jia Liu, Tao Zheng, Zhenyu Chen.<br>
+  Shengcheng Yu, Chunrong Fang<sup>&#42;</sup>, Ye Zhong, **Quanjun Zhang**, Qin Liu, Jia Liu, Tao Zheng, Zhenyu Chen.<br>
   In *Journal of Software* (in Chinese), pages to appear, 2024.
 
 25. `TSE'24` **Enhanced Crowdsourced Test Report Prioritization via Image-and-Text Semantic Understanding and Feature Integration**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -128,7 +128,7 @@ Note: <sup>*</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equ
   In *IEEE Transactions on Software Engineering*, pages to appear, 2024.
 
 26. `APR'25` **Can GPT-O1 Kill All Bugs? An Evaluation of GPT-Family LLMs on QuixBugs**.<br>
-  Haichuan Hu, Ye Shang, Guolin Xu, Congqing He, **Quanjun Zhang**<sup>*</sup>.<br>
+  Haichuan Hu, Ye Shang, Guolin Xu, Congqing He, **Quanjun Zhang**<sup>&#42;</sup>.<br>
   In *The 6th International Workshop on Automated Program Repair (APR 2025)*.
 
 27. `FSE'25` **Eliminating Backdoors in Neural Code Models for Secure Code Understanding**. (<span class="ccf-a">CCF-A</span>)<br>
@@ -148,7 +148,7 @@ Note: <sup>*</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equ
   In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2024.
 
 31. `FSE'24` **Semi-Supervised Crowdsourced Test Report Clustering via Screenshot-Text Binding Rules**. (<span class="ccf-a">CCF-A</span>)<br>
-  Shengcheng Yu, Chunrong Fang<sup>*</sup>, **Quanjun Zhang**, Mingzhe Du, Jia Liu, Zhenyu Chen.<br>
+  Shengcheng Yu, Chunrong Fang<sup>&#42;</sup>, **Quanjun Zhang**, Mingzhe Du, Jia Liu, Zhenyu Chen.<br>
   In *Proceedings of the 32nd ACM Symposium on the Foundations of Software Engineering (FSE '24)*, July 15--19, 2024, Porto de Galinhas, Brazil.
 
 32. `TOSEM'24` **DiPri: Distance-based Seed Prioritization for Greybox Fuzzing**. (<span class="ccf-a">CCF-A</span>)<br>
