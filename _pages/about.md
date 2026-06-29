@@ -11,7 +11,7 @@ redirect_from:
 
 I am currently a Professor at the [School of Computer Science and Engineering](https://cs.njust.edu.cn/), [Nanjing University of Science and Technology](https://www.njust.edu.cn/). My research focuses on the intersection of artificial intelligence and software engineering, with particular interests in coding agents, automated program repair, software testing, code representation, deep learning system testing and repair, and model security.
 
-Before joining [Nanjing University of Science and Technology](https://www.njust.edu.cn/), I was a Postdoctoral Research Fellow at [Swinburne University of Technology](https://www.swinburne.edu.au/) under the supervision of [Prof. Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang). I received my Ph.D. from [Nanjing University](https://www.nju.edu.cn/en/), under the supervision of [Prof. Zhenyu Chen](https://scholar.google.com/citations?user=HQWxCnkAAAAJ) and [Assoc. Prof. Chunrong Fang](https://scholar.google.com/citations?user=S3Rd5TgAAAAJ).
+Previously, I was a Postdoctoral Research Fellow at [Swinburne University of Technology](https://www.swinburne.edu.au/) under the supervision of [Prof. Yun Yang](https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang). I received my Ph.D. from [Nanjing University](https://www.nju.edu.cn/en/), under the supervision of [Prof. Zhenyu Chen](https://scholar.google.com/citations?user=HQWxCnkAAAAJ) and [Assoc. Prof. Chunrong Fang](https://scholar.google.com/citations?user=S3Rd5TgAAAAJ).
 
 I am open to collaboration and communication. Please feel free to contact me at [quanjunzhang@njust.edu.cn](mailto:quanjunzhang@njust.edu.cn).
 
@@ -19,11 +19,12 @@ I am open to collaboration and communication. Please feel free to contact me at 
 
 # 📚 Research Interest
 
-I have published over 50 papers <a href='https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FQuanjunZhang%2Fquanjunzhang.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international software engineering conferences (e.g., ICSE, FSE, ASE, ISSTA) and journals (e.g., TOSEM, TSE, TDSC, SCIS, EMSE). Currently, I focus on the following research topics:
+I have published over 50 papers <a href='https://scholar.google.com/citations?user=zRzZ8HwAAAAJ&hl=zh-CN'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2FQuanjunZhang%2Fquanjunzhang.github.io%40google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a> at top international conferences and journals in software engineering, artificial intelligence, and security, including venues such as ICSE, FSE, ASE, ISSTA, ACL, IJCV, TOSEM, TSE, TDSC, SCIS, and EMSE. My research lies at the intersection of artificial intelligence, software engineering, and software security. I am particularly interested in:
 
-- Artificial Intelligence for Software Engineering: Coding Agents (TOSEM'26), Automated Program Repair (ASE'23, TOSEM'23, TDSC'23), Software Testing (ISSTA'25, TOSEM'24, TSE'25), and Code Representation
-- Large Language Models for Software Engineering: Assertion Generation (TSE'25, TOSEM'25), Unit Test Generation (ISSTA'25, FSE'25-Tool), and Repository-Level Software Repair (TOSEM'26)
-- Software Engineering for Artificial Intelligence: Deep Learning System Testing and Repair, Model Security (TOSEM'25, ISSTA'26), and AI Software Quality Assurance
+- LLMs and Agents for Software Engineering: coding agents and multi-agent software repair (TOSEM'26), repository-level program repair (TOSEM'26, ASE'26), assertion generation (TSE'25, TOSEM'25, ISSTA'26), unit test generation (ISSTA'25, FSE'25-Tool), and retrieval-augmented software engineering (SCIS'25, JOS'25).
+- Automated Program Repair and Software Maintenance: learning-based program repair (ASE'23, TOSEM'23, ISSTA'22), patch correctness assessment (TSE'24, EMSE'26), vulnerability repair (TDSC'23), actionable warning identification (TOSEM'25, SCIS'24), and code search, summarization, and representation (ICSE'22, TOSEM'23, TSE'24, TOSEM'26).
+- Software Testing and Quality Assurance: assertion and test generation (TSE'25, TOSEM'25, ISSTA'25, ISSTA'26), fuzzing and seed prioritization (TOSEM'24), mobile and crowdsourced testing (TSE'23, TSE'24, FSE'24), and testing of machine translation, GUI, and deep learning systems (TOSEM'24, TOSEM'25, JOS'25).
+- Security of AI and Code Models: backdoor attacks and defenses for neural code models (ACL'23, TOSEM'25, FSE'25), secure code generation and model editing (ISSTA'26), vulnerability repair (TDSC'23), and adversarial testing of AI systems (IJCV'26, TOSEM'25).
 
 <div class="research-wordcloud-wrap">
   <img src="/images/research-wordcloud.png" alt="Research word cloud generated from publication titles" class="research-wordcloud">
