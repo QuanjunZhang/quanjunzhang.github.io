@@ -186,6 +186,54 @@ h1:before, .anchor:before {
     object-fit: contain;
 }
 
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.95rem;
+    margin: 0.75rem 0 1.5rem;
+}
+
+.experience-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.8rem;
+}
+
+.experience-logo {
+    display: flex;
+    flex: 0 0 48px;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+}
+
+.experience-logo img {
+    display: block;
+    max-width: 44px;
+    max-height: 44px;
+    object-fit: contain;
+}
+
+.experience-text {
+    margin: 0;
+    line-height: 1.55;
+}
+
+@media (max-width: 480px) {
+    .experience-logo {
+        flex-basis: 42px;
+        width: 42px;
+        height: 42px;
+    }
+
+    .experience-logo img {
+        max-width: 38px;
+        max-height: 38px;
+    }
+}
+
 
 .publication-counts {
     margin: 0.75rem 0 1.1rem;
