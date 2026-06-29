@@ -10,6 +10,8 @@ author_profile: true
 
 Note: equal contribution is noted where applicable. An asterisk (*) is preserved where marked in the source list.
 
+<p class="publication-counts" id="publication-counts"></p>
+
 ## Preprints
 
 - `Preprint` **A Critical Review of Large Language Model on Software Engineering: An Example from ChatGPT and Automated Program Repair**.  
@@ -253,3 +255,59 @@ Note: equal contribution is noted where applicable. An asterisk (*) is preserved
 - `JSS'20` **Regression test case prioritization by code combinations coverage**. (CCF-B, SCI Q2)  
   Rubing Huang, **Quanjun Zhang**, Dave Towey, Weifeng Sun, Jinfu Chen.  
   In *Journal of Systems and Software*, 2020, to appear.
+
+<script>
+(function () {
+  function countItemsUntilNextHeading(heading) {
+    var count = 0;
+    var node = heading.nextElementSibling;
+
+    while (node && node.tagName !== "H2") {
+      if (node.tagName === "UL" || node.tagName === "OL") {
+        for (var i = 0; i < node.children.length; i += 1) {
+          if (node.children[i].tagName === "LI") {
+            count += 1;
+          }
+        }
+      }
+      node = node.nextElementSibling;
+    }
+
+    return count;
+  }
+
+  function findHeading(label) {
+    var headings = document.querySelectorAll(".page__content h2");
+    for (var i = 0; i < headings.length; i += 1) {
+      if (headings[i].textContent.trim() === label) {
+        return headings[i];
+      }
+    }
+    return null;
+  }
+
+  function setHeadingCount(heading, count) {
+    if (!heading || heading.querySelector(".publication-count-badge")) {
+      return;
+    }
+    var badge = document.createElement("span");
+    badge.className = "publication-count-badge";
+    badge.textContent = count;
+    heading.appendChild(document.createTextNode(" "));
+    heading.appendChild(badge);
+  }
+
+  var preprintsHeading = findHeading("Preprints");
+  var publicationsHeading = findHeading("Publications");
+  var preprints = preprintsHeading ? countItemsUntilNextHeading(preprintsHeading) : 0;
+  var publications = publicationsHeading ? countItemsUntilNextHeading(publicationsHeading) : 0;
+  var summary = document.getElementById("publication-counts");
+
+  setHeadingCount(preprintsHeading, preprints);
+  setHeadingCount(publicationsHeading, publications);
+
+  if (summary) {
+    summary.textContent = "Total: " + (preprints + publications) + " entries (Preprints: " + preprints + ", Publications: " + publications + ")";
+  }
+}());
+</script>
