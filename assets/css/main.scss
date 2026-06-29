@@ -186,7 +186,7 @@ h1:before, .anchor:before {
     object-fit: contain;
 }
 
-.page__content li p code + strong + br + strong {
+.page__content li p br ~ strong {
     color: #7b1fa2;
     font-weight: 700;
 }
