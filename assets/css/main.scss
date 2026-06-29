@@ -189,49 +189,42 @@ h1:before, .anchor:before {
 .experience-list {
     display: flex;
     flex-direction: column;
-    gap: 0.95rem;
+    gap: 0.6rem;
     margin: 0.75rem 0 1.5rem;
 }
 
 .experience-item {
     display: flex;
     align-items: flex-start;
-    gap: 0.8rem;
+    gap: 0.45rem;
 }
 
 .experience-logo {
-    display: flex;
-    flex: 0 0 48px;
+    display: inline-flex;
+    flex: 0 0 auto;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 48px;
+    width: auto;
+    height: 1.35em;
+    margin-top: 0.18em;
     text-decoration: none;
 }
 
 .experience-logo img {
     display: block;
-    max-width: 44px;
-    max-height: 44px;
+    width: auto;
+    max-width: 1.35em;
+    max-height: 1.35em;
     object-fit: contain;
+}
+
+.experience-logo--wide img {
+    max-width: 7.75rem;
 }
 
 .experience-text {
     margin: 0;
     line-height: 1.55;
-}
-
-@media (max-width: 480px) {
-    .experience-logo {
-        flex-basis: 42px;
-        width: 42px;
-        height: 42px;
-    }
-
-    .experience-logo img {
-        max-width: 38px;
-        max-height: 38px;
-    }
 }
 
 

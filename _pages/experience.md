@@ -15,15 +15,15 @@ author_profile: true
   </div>
 
   <div class="experience-item">
-    <a class="experience-logo" href="https://www.swinburne.edu.au/" aria-label="Swinburne University of Technology">
-      <img src="/images/swinburne-logo.png" alt="Swinburne University of Technology logo">
+    <a class="experience-logo experience-logo--wide" href="https://www.swinburne.edu.au/" aria-label="Swinburne University of Technology">
+      <img src="/images/swinburne-logo.svg" alt="Swinburne University of Technology logo">
     </a>
     <p class="experience-text"><em>01/2025 - 04/2025</em>, Postdoctoral Research Fellow, <a href="https://www.swinburne.edu.au/">Swinburne University of Technology</a>, under the supervision of <a href="https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang">Prof. Yun Yang</a>.</p>
   </div>
 
   <div class="experience-item">
-    <a class="experience-logo" href="https://www.swinburne.edu.au/" aria-label="Swinburne University of Technology">
-      <img src="/images/swinburne-logo.png" alt="Swinburne University of Technology logo">
+    <a class="experience-logo experience-logo--wide" href="https://www.swinburne.edu.au/" aria-label="Swinburne University of Technology">
+      <img src="/images/swinburne-logo.svg" alt="Swinburne University of Technology logo">
     </a>
     <p class="experience-text"><em>10/2023 - 10/2024</em>, Visiting Ph.D. student, <a href="https://www.swinburne.edu.au/">Swinburne University of Technology</a>, under the supervision of <a href="https://www.swinburne.edu.au/research/our-research/access-our-research/find-a-researcher-or-supervisor/researcher-profile/?id=yyang">Prof. Yun Yang</a>.</p>
   </div>
