@@ -187,16 +187,24 @@ h1:before, .anchor:before {
 }
 
 .experience-list {
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
     margin: 0.75rem 0 1.5rem;
+    padding-left: 1.25rem;
+    list-style: disc;
 }
 
 .experience-item {
-    display: flex;
+    margin-bottom: 0.6rem;
+}
+
+.experience-item::marker {
+    color: #000000;
+}
+
+.experience-row {
+    display: inline-flex;
     align-items: flex-start;
     gap: 0.45rem;
+    vertical-align: top;
 }
 
 .experience-logo {
