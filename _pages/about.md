@@ -33,7 +33,7 @@ I have published over 50 papers <a href='https://scholar.google.com/citations?us
 
 # Selected Publications
 
-Note: equal contribution is noted where applicable.
+Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equal contribution.
 
 - `TOSEM'26` **SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair**.  
   **Quanjun Zhang**, Chengyu Gao, Yu Han, Ye Shang, Chunrong Fang, Zhenyu Chen, Liang Xiao.  
@@ -64,7 +64,7 @@ Note: equal contribution is noted where applicable.
   In *Frontiers of Computer Science*, pages to appear, 2025. (CCF-B)
 
 - `JOS'25` **Research Progress of Retrieval-Augmented Generation in Software Engineering**.  
-  **Quanjun Zhang**, Yang Xie, Chunrong Fang, Shengcheng Yu, Yuan Zhao, Zhenyu Chen.  
+  **Quanjun Zhang**, Yang Xie, Chunrong Fang<sup>&#42;</sup>, Shengcheng Yu, Yuan Zhao, Zhenyu Chen.<br>
   In *Journal of Software* (in Chinese), pages to appear, 2025. <span class="ccf-a">(CCF-A)</span>
 
 - `TOSEM'24` **Exploring Automated Assertion Generation via Large Language Models**.  
@@ -96,9 +96,9 @@ Note: equal contribution is noted where applicable.
   In *Journal of Systems & Software*, pages to appear, 2022. (CCF-B)
 
 - `ISSTA'25` **A Large-scale Empirical Study on Fine-tuning Large Language Models for Unit Testing**.  
-  Ye Shang, **Quanjun Zhang** (equal contribution), Chunrong Fang, Siqi Gu, Jianyi Zhou, Zhenyu Chen.  
+  Ye Shang, **Quanjun Zhang**<sup>&dagger;</sup>, Chunrong Fang, Siqi Gu, Jianyi Zhou, Zhenyu Chen.<br>
   In *Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis*, pages to appear, 2025. <span class="ccf-a">(CCF-A)</span>
 
 - `ISSTA'22` **CIRCLE: Continual Repair across Programming Languages**.  
-  Wei Yuan, **Quanjun Zhang** (equal contribution), Tieke He, Chunrong Fang, Nguyen Quoc Viet Hung, Hongzhi Yin.  
+  Wei Yuan, **Quanjun Zhang**<sup>&dagger;</sup>, Tieke He, Chunrong Fang, Nguyen Quoc Viet Hung, Hongzhi Yin.<br>
   In *Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis*, July 18-22, 2022. <span class="ccf-a">(CCF-A)</span>
