@@ -21,8 +21,15 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Restore previous citation data
+        run: |
+          mkdir -p ./google_scholar_crawler/results
+          git fetch origin google-scholar-stats:refs/remotes/origin/google-scholar-stats || true
+          git show origin/google-scholar-stats:gs_data.json > ./google_scholar_crawler/results/gs_data.json || rm -f ./google_scholar_crawler/results/gs_data.json
+          git show origin/google-scholar-stats:gs_data_shieldsio.json > ./google_scholar_crawler/results/gs_data_shieldsio.json || rm -f ./google_scholar_crawler/results/gs_data_shieldsio.json
+
       - name: Generate Google Scholar citation data
-        timeout-minutes: 3
+        timeout-minutes: 10
         run: |
           if [ -z "${GOOGLE_SCHOLAR_ID}" ]; then
             echo "::error::Missing GOOGLE_SCHOLAR_ID"
@@ -30,10 +37,11 @@ jobs:
           fi
 
           cd ./google_scholar_crawler
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
           python main.py
         env:
           GOOGLE_SCHOLAR_ID: zRzZ8HwAAAAJ
-          FALLBACK_CITATIONS: "2271"
 
       - name: Publish citation data
         run: |
