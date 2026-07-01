@@ -51,6 +51,7 @@ def fetch_with_scholarly(updated: str) -> dict:
     from scholarly import ProxyGenerator, scholarly
 
     proxy_generator = ProxyGenerator()
+    proxy_generator._TIMEOUT = 1
     if not proxy_generator.FreeProxies():
         raise RuntimeError("Could not configure scholarly free proxies.")
 
