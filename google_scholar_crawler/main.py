@@ -4,12 +4,15 @@ import json
 import os
 import re
 import traceback
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 
 RESULTS_DIR = "results"
 SCHOLAR_ID = os.environ["GOOGLE_SCHOLAR_ID"]
+SERPAPI_API_KEY = os.environ.get("SERPAPI_API_KEY")
 PROFILE_URL = f"https://scholar.google.com/citations?user={SCHOLAR_ID}&hl=en"
+SERPAPI_URL = "https://serpapi.com/search"
 USER_AGENT = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -36,6 +39,59 @@ def extract_citation_count(page_html: str) -> int:
             return int(match.group(1).replace(",", ""))
 
     raise ValueError("Could not find citation count in Google Scholar profile.")
+
+
+def fetch_serpapi_profile() -> dict:
+    if not SERPAPI_API_KEY:
+        raise RuntimeError("SERPAPI_API_KEY is not configured.")
+
+    query = urlencode(
+        {
+            "engine": "google_scholar_author",
+            "author_id": SCHOLAR_ID,
+            "hl": "en",
+            "api_key": SERPAPI_API_KEY,
+        }
+    )
+    request = Request(f"{SERPAPI_URL}?{query}", headers={"User-Agent": USER_AGENT})
+    with urlopen(request, timeout=30) as response:
+        payload = response.read().decode("utf-8", errors="replace")
+
+    data = json.loads(payload)
+    if data.get("error"):
+        raise RuntimeError(f"SerpAPI returned error: {data['error']}")
+
+    status = data.get("search_metadata", {}).get("status")
+    if status and status != "Success":
+        raise RuntimeError(f"SerpAPI search did not succeed: {status}")
+
+    data.get("search_parameters", {}).pop("api_key", None)
+    return data
+
+
+def extract_serpapi_citation_count(data: dict) -> int:
+    cited_by = data.get("cited_by", {})
+    for row in cited_by.get("table", []):
+        citations = row.get("citations")
+        if isinstance(citations, dict) and citations.get("all") is not None:
+            return int(str(citations["all"]).replace(",", ""))
+
+    raise ValueError("SerpAPI response does not include total citations.")
+
+
+def fetch_with_serpapi(updated: str) -> dict:
+    data = fetch_serpapi_profile()
+    citedby = extract_serpapi_citation_count(data)
+    data.update(
+        {
+            "updated": updated,
+            "scholar_id": SCHOLAR_ID,
+            "profile_url": PROFILE_URL,
+            "fetch_method": "serpapi",
+            "citedby": citedby,
+        }
+    )
+    return data
 
 
 def normalize_publications(publications: list[dict]) -> dict:
@@ -158,7 +214,7 @@ def main() -> None:
     updated = datetime.now(timezone.utc).isoformat()
     errors = []
 
-    for fetcher in (fetch_with_scholarly, fetch_with_direct_request):
+    for fetcher in (fetch_with_serpapi, fetch_with_scholarly, fetch_with_direct_request):
         try:
             author = fetcher(updated)
             citedby = citation_count(author)
