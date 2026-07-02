@@ -36,70 +36,70 @@ I have published over 50 papers <a href='https://scholar.google.com/citations?us
 
 Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes equal contribution.
 
-- `TOSEM'26` **SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair** <span class="ccf-a">(CCF-A)</span>.  
+- `TOSEM'26` **SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chengyu Gao, Yu Han, Ye Shang, Chunrong Fang, Zhenyu Chen, Liang Xiao.  
   In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2026.
 
-- `EMSE'26` **ComPass: Contrastive Learning for Automated Patch Correctness Assessment in Program Repair** (CCF-B).  
+- `EMSE'26` **ComPass: Contrastive Learning for Automated Patch Correctness Assessment in Program Repair**. (CCF-B)  
   **Quanjun Zhang**, Ye Shang, Haichuan Hu, Chunrong Fang, Zhenyu Chen, Liang Xiao.  
   In *Empirical Software Engineering*, pages to appear, 2026.
 
-- `TOSEM'26` **A Systematic Literature Review on Large Language Models for Automated Program Repair** <span class="ccf-a">(CCF-A)</span>.  
+- `TOSEM'26` **A Systematic Literature Review on Large Language Models for Automated Program Repair**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chunrong Fang, Yuxiang Ma, Yang Xie, Weisong Sun, Yun Yang, Zhenyu Chen.  
   In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2026.
 
-- `TSE'25` **Improving Retrieval-Augmented Deep Assertion Generation via Joint Training** <span class="ccf-a">(CCF-A)</span>.  
+- `TSE'25` **Improving Retrieval-Augmented Deep Assertion Generation via Joint Training**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chunrong Fang, Yi Zheng, Ruixiang Qian, Shengcheng Yu, Yuan Zhao, Jianyi Zhou, Yun Yang, Tao Zheng, Zhenyu Chen.  
   In *IEEE Transactions on Software Engineering*, pages to appear, 2025. [[Data](https://github.com/iSEngLab/AG-RAG)]
 
-- `TOSEM'25` **Improving Deep Assertion Generation via Fine-Tuning Retrieval-Augmented Pre-trained Language Models** <span class="ccf-a">(CCF-A)</span>.  
+- `TOSEM'25` **Improving Deep Assertion Generation via Fine-Tuning Retrieval-Augmented Pre-trained Language Models**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chunrong Fang, Yi Zheng, Yaxin Zhang, Yuan Zhao, Rubing Huang, Jianyi Zhou, Yun Yang, Tao Zheng, Zhenyu Chen.  
   In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2025.
 
-- `SCIS'25` **A Survey on Large Language Models for Software Engineering** <span class="ccf-a">(CCF-A)</span>.  
+- `SCIS'25` **A Survey on Large Language Models for Software Engineering**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chunrong Fang, Yang Xie, Yaxin Zhang, Shengcheng Yu, Weisong Sun, Yun Yang, Zhenyu Chen.  
   In *SCIENCE CHINA Information Sciences*, pages to appear, 2025.
 
-- `FCS'25` **TestBench: Evaluating Class-Level Test Case Generation Capability of Large Language Models** (CCF-B).  
+- `FCS'25` **TestBench: Evaluating Class-Level Test Case Generation Capability of Large Language Models**. (CCF-B)  
   **Quanjun Zhang**, Ye Shang, Chunrong Fang, Siqi Gu, Jianyi Zhou, Zhenyu Chen.  
   In *Frontiers of Computer Science*, pages to appear, 2025.
 
-- `JOS'25` **Research Progress of Retrieval-Augmented Generation in Software Engineering** <span class="ccf-a">(CCF-A)</span>.  
+- `JOS'25` **Research Progress of Retrieval-Augmented Generation in Software Engineering**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Yang Xie, Chunrong Fang<sup>&#42;</sup>, Shengcheng Yu, Yuan Zhao, Zhenyu Chen.<br>
   In *Journal of Software* (in Chinese), pages to appear, 2025.
 
-- `TOSEM'24` **Exploring Automated Assertion Generation via Large Language Models** <span class="ccf-a">(CCF-A)</span>.  
+- `TOSEM'24` **Exploring Automated Assertion Generation via Large Language Models**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Weifeng Sun, Chunrong Fang, Bowen Yu, Hongyan Li, Meng Yan, Jianyi Zhou, Zhenyu Chen.  
   In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2024.
 
-- `TSE'24` **APPT: Boosting Automated Patch Correctness Prediction via Fine-tuning Pre-trained Models** <span class="ccf-a">(CCF-A)</span>.  
+- `TSE'24` **APPT: Boosting Automated Patch Correctness Prediction via Fine-tuning Pre-trained Models**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chunrong Fang, Weisong Sun, Yan Liu, Tieke He, Xiaodong Hao, Zhenyu Chen.  
   In *IEEE Transactions on Software Engineering*, pages to appear, 2024.
 
-- `TOSEM'24` **Machine Translation Testing via Syntactic Tree Pruning** <span class="ccf-a">(CCF-A)</span>.  
+- `TOSEM'24` **Machine Translation Testing via Syntactic Tree Pruning**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Juan Zhai, Chunrong Fang, Jiawei Liu, Weisong Sun, Haichuan Hu, Qingyu Wang.  
   In *ACM Transactions on Software Engineering and Methodology*, 39 pages, 2024. [[Data](https://github.com/iSEngLab/STP)]
 
-- `TOSEM'23` **A Survey of Learning-based Automated Program Repair** <span class="ccf-a">(CCF-A)</span>.  
+- `TOSEM'23` **A Survey of Learning-based Automated Program Repair**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chunrong Fang, Yuxiang Ma, Weisong Sun, Zhenyu Chen.  
   In *ACM Transactions on Software Engineering and Methodology*, 69 pages, 2023. [[PDF](https://arxiv.org/pdf/2308.12533.pdf)] [[Data](https://github.com/iSEngLab/AwesomeLearningAPR)]
 
-- `TDSC'23` **Pre-trained Model-based Automated Software Vulnerability Repair: How Far are We?** <span class="ccf-a">(CCF-A)</span>.  
+- `TDSC'23` **Pre-trained Model-based Automated Software Vulnerability Repair: How Far are We?**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chunrong Fang, Bowen Yu, Weisong Sun, Tongke Zhang, Zhenyu Chen.  
   In *IEEE Transactions on Dependable and Secure Computing*, pages to appear, 2023. [[PDF](https://arxiv.org/pdf/2309.09308.pdf)] [[Data](https://github.com/iSEngLab/LLM4VulFix)]
 
-- `ASE'23` **GAMMA: Revisiting Template-based Automated Program Repair via Mask Prediction** <span class="ccf-a">(CCF-A)</span>.  
+- `ASE'23` **GAMMA: Revisiting Template-based Automated Program Repair via Mask Prediction**. (<span class="ccf-a">CCF-A</span>)  
   **Quanjun Zhang**, Chunrong Fang, Tongke Zhang, Bowen Yu, Weisong Sun, Zhenyu Chen.  
   In *38th IEEE/ACM International Conference on Automated Software Engineering*, pages to appear, 2023.
 
-- `JSS'22` **Test Case Prioritization Using Partial Attention** (CCF-B).  
+- `JSS'22` **Test Case Prioritization Using Partial Attention**. (CCF-B)  
   **Quanjun Zhang**, Chunrong Fang, Weisong Sun, Shencheng Yu, Yutao Xu, Yulei Liu.  
   In *Journal of Systems & Software*, pages to appear, 2022.
 
-- `ISSTA'25` **A Large-scale Empirical Study on Fine-tuning Large Language Models for Unit Testing** <span class="ccf-a">(CCF-A)</span>.  
+- `ISSTA'25` **A Large-scale Empirical Study on Fine-tuning Large Language Models for Unit Testing**. (<span class="ccf-a">CCF-A</span>)  
   Ye Shang, **Quanjun Zhang**<sup>&dagger;</sup>, Chunrong Fang, Siqi Gu, Jianyi Zhou, Zhenyu Chen.<br>
   In *Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis*, pages to appear, 2025.
 
-- `ISSTA'22` **CIRCLE: Continual Repair across Programming Languages** <span class="ccf-a">(CCF-A)</span>.  
+- `ISSTA'22` **CIRCLE: Continual Repair across Programming Languages**. (<span class="ccf-a">CCF-A</span>)  
   Wei Yuan, **Quanjun Zhang**<sup>&dagger;</sup>, Tieke He, Chunrong Fang, Nguyen Quoc Viet Hung, Hongzhi Yin.<br>
   In *Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis*, July 18-22, 2022.
