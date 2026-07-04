@@ -55,3 +55,8 @@ jobs:
           git push --force "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:google-scholar-stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Purge citation badge CDN cache
+        run: |
+          curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@google-scholar-stats/gs_data_shieldsio.json"
+          curl -fsS "https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@google-scholar-stats/gs_data.json"
