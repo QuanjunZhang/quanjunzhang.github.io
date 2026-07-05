@@ -186,6 +186,31 @@ h1:before, .anchor:before {
     object-fit: contain;
 }
 
+.selected-publications-list {
+    counter-reset: selected-publications;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.selected-publications-list > li {
+    counter-increment: selected-publications;
+    position: relative;
+    margin-bottom: 1em;
+    padding-left: 2.6em;
+}
+
+.selected-publications-list > li::before {
+    content: "[" counter(selected-publications) "]";
+    position: absolute;
+    left: 0;
+    top: 0;
+    min-width: 2.1em;
+    color: #7b1fa2;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+}
+
 .experience-list {
     margin: 0.75rem 0 1.5rem;
     padding-left: 1.25rem;
