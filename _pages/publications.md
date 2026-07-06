@@ -24,6 +24,7 @@ Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes
 3. `Preprint` **No Man is an Island: Towards Fully Automatic Programming by Code Search, Code Generation and Program Repair**.<br>
   **Quanjun Zhang**, Chunrong Fang, Ye Shang, Tongke Zhang, Shengcheng Yu, Zhenyu Chen.<br>
   [[PDF](https://arxiv.org/pdf/2203.05166.pdf)] [[Data](https://github.com/QuanjunZhang/2022-APREmpirical)]
+{: .bracketed-publication-list}
 
 ## Publications
 
@@ -254,6 +255,7 @@ Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes
 57. `JSS'20` **Regression test case prioritization by code combinations coverage**. (CCF-B, SCI Q2)<br>
   Rubing Huang, **Quanjun Zhang**, Dave Towey, Weifeng Sun, Jinfu Chen.<br>
   In *Journal of Systems and Software*, 2020, to appear.
+{: .bracketed-publication-list}
 
 <script>
 (function () {

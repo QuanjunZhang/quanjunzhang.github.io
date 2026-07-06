@@ -103,4 +103,4 @@ Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes
 17. `ISSTA'22` **CIRCLE: Continual Repair across Programming Languages**. (<span class="ccf-a">CCF-A</span>)<br>
   Wei Yuan, **Quanjun Zhang**<sup>&dagger;</sup>, Tieke He, Chunrong Fang, Nguyen Quoc Viet Hung, Hongzhi Yin.<br>
   In *Proceedings of the 31st ACM SIGSOFT International Symposium on Software Testing and Analysis*, July 18-22, 2022.
-{: .selected-publications-list}
+{: .bracketed-publication-list}

@@ -186,22 +186,22 @@ h1:before, .anchor:before {
     object-fit: contain;
 }
 
-.selected-publications-list {
-    counter-reset: selected-publications;
+.bracketed-publication-list {
+    counter-reset: publication-list;
     list-style: none;
     margin-left: 0;
     padding-left: 0;
 }
 
-.selected-publications-list > li {
-    counter-increment: selected-publications;
+.bracketed-publication-list > li {
+    counter-increment: publication-list;
     position: relative;
     margin-bottom: 1em;
     padding-left: 2.6em;
 }
 
-.selected-publications-list > li::before {
-    content: "[" counter(selected-publications) "]";
+.bracketed-publication-list > li::before {
+    content: "[" counter(publication-list) "]";
     position: absolute;
     left: 0;
     top: 0;
