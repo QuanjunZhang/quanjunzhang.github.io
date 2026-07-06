@@ -207,8 +207,10 @@ h1:before, .anchor:before {
     top: 0;
     min-width: 2.1em;
     color: #000000;
-    font-weight: 700;
+    font-size: 1em;
+    font-weight: 400;
     font-variant-numeric: tabular-nums;
+    line-height: inherit;
 }
 
 .experience-list {
