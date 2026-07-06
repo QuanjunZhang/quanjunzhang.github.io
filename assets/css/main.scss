@@ -187,30 +187,16 @@ h1:before, .anchor:before {
 }
 
 .bracketed-publication-list {
-    counter-reset: publication-list;
-    list-style: none;
-    margin-left: 0;
-    padding-left: 0;
+    list-style: decimal;
+    padding-left: 1.65em;
 }
 
 .bracketed-publication-list > li {
-    counter-increment: publication-list;
-    position: relative;
     margin-bottom: 1em;
-    padding-left: 2.6em;
 }
 
-.bracketed-publication-list > li::before {
-    content: "[" counter(publication-list) "]";
-    position: absolute;
-    left: 0;
-    top: 0;
-    min-width: 2.1em;
-    color: #000000;
-    font-size: 1em;
-    font-weight: 400;
-    font-variant-numeric: tabular-nums;
-    line-height: inherit;
+.bracketed-publication-list > li::marker {
+    content: "[" counter(list-item) "] ";
 }
 
 .experience-list {
