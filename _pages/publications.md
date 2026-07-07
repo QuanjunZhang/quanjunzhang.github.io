@@ -29,7 +29,7 @@ Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes
 ## Publications
 
 1. `ISSTA'26` **Understanding and Improving Model Editing for Secure Code Generation**. (<span class="ccf-a">CCF-A</span>)<br>
-  Weifeng Sun, **Quanjun Zhang**, Yuchen Chen, Chengran Yang, Gou Tan, and David Lo.<br>
+  Weifeng Sun, **Quanjun Zhang**<sup>&#42;</sup>, Yuchen Chen, Chengran Yang, Gou Tan, and David Lo.<br>
   In *Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis*, pages to appear.
 
 2. `ISSTA'26` **Towards More Realistic Assertion Generation under Mixed-Assertion Scenario**. (<span class="ccf-a">CCF-A</span>)<br>
