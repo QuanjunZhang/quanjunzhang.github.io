@@ -21,6 +21,7 @@ author_profile: true
 ## Conference PC Member
 
 - 2027: International Conference on Software Engineering (ICSE)
+- 2027: AAAI Conference on Artificial Intelligence (AAAI)
 - 2025: International Symposium on Software Testing and Analysis (ISSTA), Artifact Evaluation Track
 - 2025: International Conference on Software Engineering (ICSE), Automated Program Repair Track
 - 2024: International Symposium on Software Testing and Analysis (ISSTA), Artifact Evaluation Track
