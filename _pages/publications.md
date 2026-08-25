@@ -28,32 +28,32 @@ Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes
 
 ## Publications
 
-1. `ISSTA'26` **Understanding and Improving Model Editing for Secure Code Generation**. (<span class="ccf-a">CCF-A</span>)<br>
+1. `TOSEM'26` **TestART: Improving LLM-based Unit Testing via Co-evolution of Automated Generation and Repair Iteration**. (<span class="ccf-a">CCF-A</span>)<br>
+  Siqi Gu, **Quanjun Zhang**, Kecheng Li, Chunrong Fang, Fangyuan Tian, Liuchuan Zhu, Jianyi Zhou, Zhenyu Chen.<br>
+  In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2026.
+
+2. `ISSTA'26` **Understanding and Improving Model Editing for Secure Code Generation**. (<span class="ccf-a">CCF-A</span>)<br>
   Weifeng Sun, **Quanjun Zhang**<sup>&#42;</sup>, Yuchen Chen, Chengran Yang, Gou Tan, and David Lo.<br>
   In *Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis*, pages to appear.
 
-2. `ISSTA'26` **Towards More Realistic Assertion Generation under Mixed-Assertion Scenario**. (<span class="ccf-a">CCF-A</span>)<br>
+3. `ISSTA'26` **Towards More Realistic Assertion Generation under Mixed-Assertion Scenario**. (<span class="ccf-a">CCF-A</span>)<br>
   Hongyan Li, Kunpeng E, Weifeng Sun, **Quanjun Zhang**, and Meng Yan.<br>
   In *Proceedings of the ACM SIGSOFT International Symposium on Software Testing and Analysis*, pages to appear.
 
-3. `ASE'26` **PSearch: Search-based Patch Generation in the Era of LLM-based Automated Program Repair**. (<span class="ccf-a">CCF-A</span>)<br>
+4. `ASE'26` **PSearch: Search-based Patch Generation in the Era of LLM-based Automated Program Repair**. (<span class="ccf-a">CCF-A</span>)<br>
   Haichuan Hu, Ye Shang, Weifeng Sun, and **Quanjun Zhang**<sup>&#42;</sup>.<br>
   In *Proceedings of the IEEE/ACM International Conference on Automated Software Engineering*, pages to appear.
 
-4. `ASE'26` **MultiFixer: A Coordinator-Proposer Based Multi-agent Framework for Fixing Multi-hunk Bugs**. (<span class="ccf-a">CCF-A</span>)<br>
+5. `ASE'26` **MultiFixer: A Coordinator-Proposer Based Multi-agent Framework for Fixing Multi-hunk Bugs**. (<span class="ccf-a">CCF-A</span>)<br>
   Haichuan Hu, Chunrong Fang, Ye Shang, Jiawei Liu, Weifeng Sun, Guoqing Xie, Chenxing Zhong, and **Quanjun Zhang**<sup>&#42;</sup>.<br>
   In *Proceedings of the IEEE/ACM International Conference on Automated Software Engineering*, pages to appear.
 
-5. `IJCV'26` **UBA: A Unified Black-Box Adversarial Testing for Object Detection via Visualization-Based Contextual Reconstruction**. (<span class="ccf-a">CCF-A</span>)<br>
+6. `IJCV'26` **UBA: A Unified Black-Box Adversarial Testing for Object Detection via Visualization-Based Contextual Reconstruction**. (<span class="ccf-a">CCF-A</span>)<br>
   Jiawei Liu, Weisi Luo, Chunrong Fang, **Quanjun Zhang**, Junyi Xie, Dezhi Li, Jiang Wang, Zhenyu Chen.<br>
   In *International Journal of Computer Vision*, pages to appear, 2026.
 
-6. `TOSEM'26` **SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair**. (<span class="ccf-a">CCF-A</span>)<br>
+7. `TOSEM'26` **SGAgent: Suggestion-Guided LLM-Based Multi-Agent Framework for Repository-Level Software Repair**. (<span class="ccf-a">CCF-A</span>)<br>
   **Quanjun Zhang**, Chengyu Gao, Yu Han, Ye Shang, Chunrong Fang, Zhenyu Chen, Liang Xiao.<br>
-  In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2026.
-
-7. `TOSEM'26` **TestART: Improving LLM-based Unit Testing via Co-evolution of Automated Generation and Repair Iteration**. (<span class="ccf-a">CCF-A</span>)<br>
-  Siqi Gu, **Quanjun Zhang**, Kecheng Li, Chunrong Fang, Fangyuan Tian, Liuchuan Zhu, Jianyi Zhou, Zhenyu Chen.<br>
   In *ACM Transactions on Software Engineering and Methodology*, pages to appear, 2026.
 
 8. `EMSE'26` **ComPass: Contrastive Learning for Automated Patch Correctness Assessment in Program Repair**. (CCF-B)<br>
