@@ -1,0 +1,60 @@
+fetch_with_serpapi failed:
+Traceback (most recent call last):
+  File "/home/runner/work/quanjunzhang.github.io/quanjunzhang.github.io/google_scholar_crawler/main.py", line 219, in main
+    author = fetcher(updated)
+             ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/quanjunzhang.github.io/quanjunzhang.github.io/google_scholar_crawler/main.py", line 83, in fetch_with_serpapi
+    data = fetch_serpapi_profile()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/quanjunzhang.github.io/quanjunzhang.github.io/google_scholar_crawler/main.py", line 46, in fetch_serpapi_profile
+    raise RuntimeError("SERPAPI_API_KEY is not configured.")
+RuntimeError: SERPAPI_API_KEY is not configured.
+
+
+fetch_with_scholarly failed:
+Traceback (most recent call last):
+  File "/home/runner/work/quanjunzhang.github.io/quanjunzhang.github.io/google_scholar_crawler/main.py", line 219, in main
+    author = fetcher(updated)
+             ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/quanjunzhang.github.io/quanjunzhang.github.io/google_scholar_crawler/main.py", line 107, in fetch_with_scholarly
+    from scholarly import ProxyGenerator, scholarly
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/scholarly/__init__.py", line 1, in <module>
+    from ._scholarly import _Scholarly
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/scholarly/_scholarly.py", line 11, in <module>
+    from ._navigator import Navigator
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/scholarly/_navigator.py", line 16, in <module>
+    from .publication_parser import _SearchScholarIterator
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/scholarly/publication_parser.py", line 4, in <module>
+    from bibtexparser.bibdatabase import BibDatabase
+ModuleNotFoundError: No module named 'bibtexparser.bibdatabase'
+
+
+fetch_with_direct_request failed:
+Traceback (most recent call last):
+  File "/home/runner/work/quanjunzhang.github.io/quanjunzhang.github.io/google_scholar_crawler/main.py", line 219, in main
+    author = fetcher(updated)
+             ^^^^^^^^^^^^^^^^
+  File "/home/runner/work/quanjunzhang.github.io/quanjunzhang.github.io/google_scholar_crawler/main.py", line 124, in fetch_with_direct_request
+    profile_html = fetch_profile_html()
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/quanjunzhang.github.io/quanjunzhang.github.io/google_scholar_crawler/main.py", line 25, in fetch_profile_html
+    with urlopen(request, timeout=30) as response:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/urllib/request.py", line 216, in urlopen
+    return opener.open(url, data, timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/urllib/request.py", line 525, in open
+    response = meth(req, response)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/urllib/request.py", line 634, in http_response
+    response = self.parent.error(
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/urllib/request.py", line 563, in error
+    return self._call_chain(*args)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/urllib/request.py", line 496, in _call_chain
+    result = func(*args)
+             ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/urllib/request.py", line 643, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
