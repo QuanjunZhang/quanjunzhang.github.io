@@ -29,8 +29,8 @@ Note: <sup>&#42;</sup> denotes corresponding author; <sup>&dagger;</sup> denotes
 ## Publications
 
 1. `ICSE'27` **Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair**. (<span class="ccf-a">CCF-A</span>)<br><!-- research: primary=智能软件工程; tags=漏洞修复、自演化智能体、修复经验学习 -->
-  Haichuan Hu, Guoqing Xie, **Quanjun Zhang**, Jiawei Liu, Shengcheng Yu, Chunrong Fang, Zhenyu Chen, and Liang Xiao.<br>
-  In *Proceedings of the IEEE/ACM International Conference on Software Engineering*, pages to appear, 2027. [[Paper](https://icse2027.hotcrp.com/u/1/paper/5762)]
+  Haichuan Hu, Guoqing Xie, **Quanjun Zhang**<sup>&#42;</sup>, Jiawei Liu, Shengcheng Yu, Chunrong Fang, Zhenyu Chen, and Liang Xiao.<br>
+  In *Proceedings of the IEEE/ACM International Conference on Software Engineering*, pages to appear, 2027.
 
 2. `TOSEM'26` **TestART: Improving LLM-based Unit Testing via Co-evolution of Automated Generation and Repair Iteration**. (<span class="ccf-a">CCF-A</span>)<br>
   Siqi Gu, **Quanjun Zhang**, Kecheng Li, Chunrong Fang, Fangyuan Tian, Liuchuan Zhu, Jianyi Zhou, Zhenyu Chen.<br>
